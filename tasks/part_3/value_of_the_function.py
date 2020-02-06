@@ -9,4 +9,5 @@ def f(x):
     return res
 
 
-print(f(4.5))
+if __name__ == '__main__':
+    print(f(4.5))
