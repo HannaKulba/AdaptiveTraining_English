@@ -2,7 +2,7 @@
 
 There are done tasks from "Adaptive Python" course on [Stepik.org](https://stepik.org/course/568)
 
-NOT ALL, bue most of them.
+NOT ALL, but most of them.
 
 ## Author
 
