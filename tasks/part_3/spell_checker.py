@@ -10,18 +10,18 @@ l = int(input())
 
 for _ in range(l):
     i = input().split()
-    array = []
+    set_list = set()
     for j in i:
-        array.append(j.lower())
+        set_list.add(j.lower())
 
     for word in words:
-        if word in array:
-            array.remove(word)
+        if word in set_list:
+            set_list.remove(word)
 
-    if len(array) > 0:
-        for a in array:
+    if len(set_list) > 0:
+        for s in set_list:
             for j in i:
-                if j.lower() == a:
+                if j.lower() == s:
                     result.add(j)
 
 for r in result:
